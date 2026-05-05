@@ -1,17 +1,37 @@
 # SexySyntax
 
-Welcome to SexySyntax, a public organization for APIs, automation tools, and developer-focused experiments.
+SexySyntax is a public GitHub organization for API projects, automation tools, developer utilities, and small experiments that are useful to builders.
 
-## Public API Work
+## What We Build
 
-- API projects and examples will be shared here as public repositories.
-- Contributors can explore the code, open issues, fork projects, and send pull requests.
-- Repository maintainers should keep setup steps, API routes, environment variables, and deployment notes close to the code.
+| Repository | Focus | Status |
+| --- | --- | --- |
+| [syntax](https://github.com/sexysyntax/syntax) | Public examples, docs, and starter code for the organization. | Active |
+| [.github](https://github.com/sexysyntax/.github) | Organization profile, shared community docs, and GitHub defaults. | Active |
 
-## Join and Contribute
+## Team
 
-- Open an issue or discussion in a public repo with your idea.
-- Fork a project, make a focused change, and send a pull request.
+| Member | Role |
+| --- | --- |
+| [shnwazdeveloper](https://github.com/shnwazdeveloper) | Organization admin and maintainer |
+| [SHNWAZX](https://github.com/SHNWAZX) | Organization member |
+| [harryxc515](https://github.com/harryxc515) | Organization member |
+
+## Project Checklist
+
+Use this checklist before calling a project or task complete:
+
+- README explains what the project does, how to run it, and where to deploy it.
+- Setup steps include required environment variables and example commands.
+- API routes, bot commands, or app features are documented close to the code.
+- Issues and pull requests are reviewed before changes are merged.
+- Failing GitHub Actions or inbox notifications are checked and assigned to a maintainer.
+
+## Contribute
+
+- Open an issue with a clear idea, bug report, or improvement request.
+- Fork a public repo, make a focused change, and send a pull request.
+- Keep pull requests small enough for the team to review quickly.
 - For member access, contact an organization admin with your GitHub username and the repo you want to help maintain.
 
 ## Links
