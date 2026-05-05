@@ -71,5 +71,5 @@ Use this checklist before calling a project or task complete:
 ## Links
 
 - Website: https://shnwazdeveloper.github.io/
-- Organization: (https://sexysyntax.github.io/syntax/)
+- Organization: https://sexysyntax.github.io/syntax
 - Admin: https://github.com/shnwazdeveloper
