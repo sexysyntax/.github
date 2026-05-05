@@ -21,6 +21,8 @@ SexySyntax is a public GitHub organization for API projects, automation tools, d
 
 Start here: [Welcome to SexySyntax](https://github.com/orgs/sexysyntax/discussions/1)
 
+Read before posting: [Discussion guide](https://github.com/sexysyntax/.github/blob/main/DISCUSSIONS.md), [contributing rules](https://github.com/sexysyntax/.github/blob/main/CONTRIBUTING.md), and [code of conduct](https://github.com/sexysyntax/.github/blob/main/CODE_OF_CONDUCT.md).
+
 | Topic | Purpose |
 | --- | --- |
 | [Announcements](https://github.com/orgs/sexysyntax/discussions/categories/announcements) | Official updates from maintainers |

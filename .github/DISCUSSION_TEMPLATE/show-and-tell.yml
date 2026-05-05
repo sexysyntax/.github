@@ -1,0 +1,30 @@
+title: "[Show and tell]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this category to show something you built or improved. Include links, screenshots, and what feedback you want.
+  - type: input
+    id: title
+    attributes:
+      label: What did you make?
+      description: Name the demo, project, feature, or experiment.
+      placeholder: Example: New static site preview.
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What is it, why did you build it, and what should people notice?
+      placeholder: Share the story behind the build.
+    validations:
+      required: true
+  - type: textarea
+    id: links
+    attributes:
+      label: Links or screenshots
+      description: Add demo links, repository links, screenshots, or video links.
+      placeholder: "- Demo:\n- Repository:\n- Screenshot:"
+    validations:
+      required: false

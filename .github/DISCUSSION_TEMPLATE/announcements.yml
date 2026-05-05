@@ -1,0 +1,30 @@
+title: "[Announcement]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this category for official SexySyntax updates. Keep the post factual, dated, and linked to the source repository, release, pull request, or deployment.
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: One short sentence that explains the announcement.
+      placeholder: Example: The syntax site has a new documentation section.
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What changed, why it matters, and who should read it?
+      placeholder: Explain the update clearly for members and visitors.
+    validations:
+      required: true
+  - type: textarea
+    id: links
+    attributes:
+      label: Related links
+      description: Add repository, pull request, release, deployment, or docs links.
+      placeholder: "- https://github.com/sexysyntax/syntax"
+    validations:
+      required: false

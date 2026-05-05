@@ -1,0 +1,30 @@
+title: "[General]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this category for open discussion, planning, coordination, and lightweight questions that do not need a formal Q&A answer.
+  - type: input
+    id: topic
+    attributes:
+      label: Topic
+      description: What should the team discuss?
+      placeholder: Example: Planning the next API docs update.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Add the background, links, or decisions needed.
+      placeholder: Give enough detail so the team can respond without guessing.
+    validations:
+      required: true
+  - type: textarea
+    id: next_steps
+    attributes:
+      label: Suggested next steps
+      description: What should happen after this discussion?
+      placeholder: Example: Pick an owner, create an issue, or agree on a direction.
+    validations:
+      required: false
