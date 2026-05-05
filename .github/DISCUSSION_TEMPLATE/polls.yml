@@ -1,0 +1,38 @@
+title: "[Poll]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this category when the team needs a simple vote. Explain the decision clearly, list the options, and include when voting should close.
+  - type: input
+    id: decision
+    attributes:
+      label: Decision
+      description: What decision should this poll help make?
+      placeholder: Example: Which docs section should ship first?
+    validations:
+      required: true
+  - type: textarea
+    id: options
+    attributes:
+      label: Options
+      description: List the voting options clearly.
+      placeholder: "- Option A:\n- Option B:\n- Option C:"
+    validations:
+      required: true
+  - type: input
+    id: close_date
+    attributes:
+      label: Voting closes
+      description: When should maintainers stop counting votes?
+      placeholder: Example: 2026-05-12
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Add the background needed to vote well.
+      placeholder: Explain why this decision matters.
+    validations:
+      required: false
